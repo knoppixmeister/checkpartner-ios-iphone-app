@@ -38,7 +38,7 @@
 	//BAPPIPadReportViewController *viewController = [[self storyboard] instantiateViewControllerWithIdentifier:@"reportViewController"];
 	//viewController.label.text = [NSString stringWithFormat:@"%lo", (long)indexPath.row];
 
-	self.splitViewController.delegate;
+	//self.splitViewController.delegate;
 	
 	//[self presentViewController:viewController animated:YES completion:nil];
 }
