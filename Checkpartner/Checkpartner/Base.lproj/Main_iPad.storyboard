@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="495" y="195"/>
         </scene>
-        <!--Table View Controller - Root View Controller-->
+        <!--Table View Controller-->
         <scene sceneID="1Wy-N3-lcE">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="6Qb-a2-wMp" sceneMemberID="viewController">
@@ -33,11 +33,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Ca8-8Y-WX4">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customCell" id="Ca8-8Y-WX4">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ca8-8Y-WX4" id="yi6-eU-mnW">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -47,7 +47,7 @@
                             <outlet property="delegate" destination="6Qb-a2-wMp" id="f9F-h3-WJz"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="WXf-R2-Jsa"/>
+                    <navigationItem key="navigationItem" id="WXf-R2-Jsa"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iTT-LF-Sfy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
